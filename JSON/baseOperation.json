@@ -1,0 +1,46 @@
+{
+  "method": "Login",
+  "organization": "qflow",
+  "jsonString": {
+    "guid": "abb13842-cf9c-4bc1-9114-858cc31caf49",
+    "idType": "personalid",
+    "fields": [
+      {
+        "code": "",
+        "customerType": "",
+        "icon": "/icon_login_pid.svg",
+        "maxLength": "",
+        "maxValue": "",
+        "minLength": "",
+        "minValue": "",
+        "name": "termsAgreed",
+        "pattern": "",
+        "placeholder": "<span> I agree to <a class='underline link-color' href='https://www.termsandcondiitionssample.com/' >Terms & Conditions</a> and <a class='underline link-color' href='https://www.privacypolicygenerator.info/' >Privacy Policy</a></span>",
+        "required": "true",
+        "type": "checkbox",
+        "validationType": "",
+        "visible": "",
+        "defaultValue": "",
+        "hint": ""
+      }
+    ],
+    "otpExists": false,
+    "processGuid": "",
+    "languageCode": "",
+    "otp": "",
+    "telNumber": "",
+    "otpExistInInputs": true,
+    "cancelationReasonId": "",
+    "connectorOrganization": "",
+    "otherText": "",
+    "preferredPhone": "",
+    "appointmentDate": "",
+    "token": "",
+    "remoteIp": "qfinterfaces.qnomy.com",
+    "channel": "Global"
+  },
+  "identifier": "",
+  "processesToRaiseEvent": [
+    ""
+  ]
+}
