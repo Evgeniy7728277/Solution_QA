@@ -1,3 +1,8 @@
+#Embeded in en.json file
+"videoRoom": {
+        "src": "ACS\index.html",
+        "counter": true}
+
 TEAMS 
 <add key="MicrosoftTeams:Email" value="netanel.abergel@qnomy.com" />
 <add key="MicrosoftTeams:Tenant_Id" value="24a4c13f-95b3-4f42-b3cd-c2e860ecb639" />
@@ -13,8 +18,7 @@ MicrosoftTeams:Tenant_Id: 24a4c13f-95b3-4f42-b3cd-c2e860ecb639
 MicrosoftTeams:Grant_Type: client_credentials
 MicrosoftTeams:Client_Id: b4da748f-0e60-4fb8-92f5-ede3c52021ba
 MicrosoftTeams:Client_Secret: xwm8Q~gAep.ixuHxbUHCuT8zuBTdXoGUUVSpiaIn    /  wk18Q~2Z-y6RwgG_YtC1-rxgGjZcan0GhiVtzajl
-MicrosoftTeams:Scope: 
-https://graph.microsoft.com/.default
+MicrosoftTeams:Scope: https://graph.microsoft.com/.default
 MicrosoftTeams:Subject: Q-Flow
 
 #Credentials
