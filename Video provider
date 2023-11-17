@@ -1,0 +1,46 @@
+#Embeded in en.json file
+"videoRoom": {
+        "src": "ACS\index.html",
+        "counter": true}
+
+TEAMS 
+<add key="MicrosoftTeams:Email" value="netanel.abergel@qnomy.com" />
+<add key="MicrosoftTeams:Tenant_Id" value="24a4c13f-95b3-4f42-b3cd-c2e860ecb639" />
+<add key="MicrosoftTeams:Grant_Type" value="client_credentials" />
+<add key="MicrosoftTeams:Client_Id" value="98da17de-9ef5-4a68-933e-3c6e1b01cbeb" />
+<add key="MicrosoftTeams:Client_Secret" value="S-MS12s8.a2piKLmGbg~_72Kq55ICqN7~6" />
+<add key="MicrosoftTeams:Scope" value="https://graph.microsoft.com/.default" />
+<add key="MicrosoftTeams:Subject" value="Q-Flow" />
+
+#AZURE credential for DmitroApp
+MicrosoftTeams:Email: dmitro.dziubenko@qnomy.com
+MicrosoftTeams:Tenant_Id: 24a4c13f-95b3-4f42-b3cd-c2e860ecb639
+MicrosoftTeams:Grant_Type: client_credentials
+MicrosoftTeams:Client_Id: b4da748f-0e60-4fb8-92f5-ede3c52021ba
+MicrosoftTeams:Client_Secret: xwm8Q~gAep.ixuHxbUHCuT8zuBTdXoGUUVSpiaIn    /  wk18Q~2Z-y6RwgG_YtC1-rxgGjZcan0GhiVtzajl
+MicrosoftTeams:Scope: https://graph.microsoft.com/.default
+MicrosoftTeams:Subject: Q-Flow
+
+#Credentials
+MicrosoftTeams:Email: Evgeniy.Belsky@qnomy.com/shlomi.gedasi@qnomy.com
+MicrosoftTeams:Tenant_Id: 24a4c13f-95b3-4f42-b3cd-c2e860ecb639
+MicrosoftTeams:Grant_Type: client_credentials
+MicrosoftTeams:Client_Id: eb439f0d-d834-431a-aee0-c0f90e5992c5
+MicrosoftTeams:Client_Secret:sOC8Q~kGXzeYjdty.PA5GFIx1rgaKqtD55lmWbB9
+MicrosoftTeams:Scope: https://graph.microsoft.com/.default
+MicrosoftTeams:Subject: Q-Flow
+
+#ACS provider
+ACS:Endpoint - https://qflowomni.communication.azure.com
+ACS:AccessKey - pGHn1HWf8odUytuAgq8amVX9VyvThHLU96+Yqlyh/VVf/4Xo7sJTN7Oc9GsU4OtHSY+Fl+3ciCWKkV6c1I0Qbw==
+
+#Zoom Server-To-Server
+Account ID: 8i3Yb4bsSuO-hLAwR3g2-g
+Client ID: J99O4WYPRNedfZD2gHBzFg
+Client secret: MdzppzRCLpBdlKBayHmUAg0UP6Z2Y17Q
+Email:shraga.tichover@qnomy.com
+
+#Parameter in ZOOM
+ZOOM_KEY: iy-JnqWrTwK9QE7r4OlKuA / YcwLsLznSfSKaPmaXvL6Ww
+ZOOM_SECRET: tsOdpZB78IheMoruMFSoy4DZJ4H1zDTOJqHk / HqTlCxK0NoHkTKwL5CPpPYBXMQNVw8J9f3Al
+ZOOM_MASTER_EMAIL: shraga.tichover@qnomy.com / dima.dziubenko1@gmail.com

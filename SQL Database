@@ -1,0 +1,30 @@
+#Set enable broker
+alter database [name database] set enable_broker with rollback immediate;
+
+#Multi User
+ALTER DATABASE [name database] SET MULTI_USER;
+ SELECT is_broker_enabled FROM sys.databases WHERE name = '[name database]';
+Alter Database [name database] Set New_broker With Rollback Immediate
+
+#Multi user 2 method
+USE master
+GO
+DECLARE @kill varchar(max) = '';
+SELECT @kill = @kill + 'KILL ' + CONVERT(varchar(10), spid) + '; '
+FROM master..sysprocesses 
+WHERE spid > 50 AND dbid = DB_ID('[name database]')
+EXEC(@kill);
+GO
+SET DEADLOCK_PRIORITY HIGH
+ALTER DATABASE [name database] SET MULTI_USER WITH NO_WAIT
+ALTER DATABASE [name database] SET MULTI_USER WITH ROLLBACK IMMEDIATE
+GO
+
+#Web.config QPC connection string to DB
+<connectionStrings>
+    <add name="QFlowDB" connectionString="Data Source=ROGUE\SQL2016; Initial Catalog=QfRougeQa63sp1;Integrated Security=False; App=Q-Flow Web; User=qflow_engine; Password=9876;" providerName="System.Data.SqlClient"/>
+    <!-- REQUIRED connection string to database -->
+    <add name="QFlowEntities" connectionString="metadata=res://*/DAL.QFlowModel.csdl|res://*/DAL.QFlowModel.ssdl|res://*/DAL.QFlowModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=ROGUE\SQL2016;initial catalog=QfRougeQa63sp1;user id=qflow_engine;password=9876;MultipleActiveResultSets=True;App=EntityFramework&quot;" providerName="System.Data.EntityClient" />
+    <!-- REQUIRED connection string to database -->
+  </connectionStrings>
+
